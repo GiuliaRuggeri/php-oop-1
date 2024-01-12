@@ -21,8 +21,8 @@ $actors2 = [
 
 ];
 
-$BackToTheFuture = new Movie("Back to the future", 1985, $genres1, "english", $actors1, "Robert Zemeckis", "USA", 116);
-$TheLostBoys = new Movie("The lost boys", 1987, $genres2, "english", $actors2, "Joel Schumacher", "USA", 98);
+$BackToTheFuture = new Movie("Back to the future", 1985, $genres1, "english", $actors1, "Robert Zemeckis", "USA", "116 minutes");
+$TheLostBoys = new Movie("The lost boys", 1987, $genres2, "english", $actors2, "Joel Schumacher", "USA", "98 minutes");
 
 $movies = [
     $BackToTheFuture,
